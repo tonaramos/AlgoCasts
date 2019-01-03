@@ -6,6 +6,8 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
+// --  First Solution --
+
 // function reverse(str) {
 //   let output = '';
 //   for (let i=str.length-1; i>=0; i--) {
@@ -15,12 +17,9 @@
 // }
 
 function reverse(str) {
-  debugger;
   return str.split('').reduce((rev, char) => char + rev, '');   
   //reduce takes two args  -first a function -second a starting argument. The reduce function runs once per character
 }
-
-reverse('asdf');
 
 /*
 Other possible ways to solve this:
