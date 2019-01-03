@@ -1,6 +1,5 @@
-
 {
-  "name": "AlgoCasts",
+  "name": "algocasts",
   "version": "1.0.0",
   "description": "Toy problem practice",
   "main": "index.js",
@@ -13,13 +12,13 @@
     "problem",
     "practice"
   ],
-  "author": {
-    "name": "tonaramos",
-    "email": "gtonaramos@gmail.com"
-  },
+  "author": "tonaramos <gtonaramos@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tonaramos/AlgoCasts/issues"
   },
-  "homepage": "https://github.com/tonaramos/AlgoCasts#readme"
+  "homepage": "https://github.com/tonaramos/AlgoCasts#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
