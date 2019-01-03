@@ -8,7 +8,7 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
-//test for update
+//second for update
 
 function anagrams(stringA, stringB) {}
 
