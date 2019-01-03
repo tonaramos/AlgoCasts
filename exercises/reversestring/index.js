@@ -6,12 +6,26 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
+// function reverse(str) {
+//   let output = '';
+//   for (let i=str.length-1; i>=0; i--) {
+//     output += str[i];
+//   }
+//   return output;
+// }
+
 function reverse(str) {
-  let output = '';
-  for (let i=str.length-1; i>=0; i--) {
-    output += str[i];
-  }
-  return output;
+  debugger;
+  return str.split('').reduce((rev, char) => char + rev, '');   
+  //reduce takes two args  -first a function -second a starting argument. The reduce function runs once per character
 }
+
+reverse('asdf');
+
+/*
+Other possible ways to solve this:
+using the reverse function for an array like so:
+return str.split('').reverse().join();
+*/
 
 module.exports = reverse;
