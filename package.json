@@ -1,0 +1,25 @@
+
+{
+  "name": "AlgoCasts",
+  "version": "1.0.0",
+  "description": "Toy problem practice",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonaramos/AlgoCasts.git"
+  },
+  "keywords": [
+    "toy",
+    "problem",
+    "practice"
+  ],
+  "author": {
+    "name": "tonaramos",
+    "email": "gtonaramos@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonaramos/AlgoCasts/issues"
+  },
+  "homepage": "https://github.com/tonaramos/AlgoCasts#readme"
+}
