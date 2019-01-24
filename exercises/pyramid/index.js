@@ -14,6 +14,26 @@
 //       ' ### '
 //       '#####'
 
-function pyramid(n) {}
+function pyramid(n) {
+  if (n===0) return '';
+  if (n===1) return '#';
+
+  let blanks = '';
+  let filled = '#';
+ 
+  for(let i = 0;i<n-1;i++){
+    blanks += ' ';
+  }
+  
+  while (!(n<1)) {
+    console.log(blanks + filled + blanks);
+    blanks = blanks.slice(0, -1);
+    filled += '##'; 
+    n--;
+  }
+  return true
+}
+
+console.log(pyramid(5));
 
 module.exports = pyramid;
